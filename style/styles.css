@@ -10,6 +10,8 @@ nav {
     align-items: center;
     justify-content: flex-end;
     width: 100%;
+    position: relative;
+    right: 3%;
 }
 
 nav button {
@@ -22,6 +24,9 @@ nav button {
     font-weight: normal;
     text-align: right;
     margin-left: 10px;
+}
+.forgot-pass{
+    
 }
 
 main img {
@@ -40,6 +45,10 @@ main fieldset {
     
     
 }
+.create-account{
+    display: block;
+    padding-top: 10%;
+}
 
 .create-account button {
     background-color: #0077c5;
@@ -52,4 +61,32 @@ main fieldset {
     text-align: right;
     margin-left: 10px;
     width: 40%;
+}
+fieldset input{
+    width: 320px;
+    height: 34px;
+}
+label p{
+    text-align: left;
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+}
+fieldset p{
+    color: #4c4c4c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+fieldset h2{
+    color: #4c4c4c;
+    font-weight: 400;
+    line-height: 1.1;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: black;
 }
