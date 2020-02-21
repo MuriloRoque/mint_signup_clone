@@ -49,7 +49,7 @@ nav button {
     justify-content: space-evenly; 
 }
 
-.inside-button {
+nav .inside-button {
     display: flex;
     align-items: center;
     justify-content: space-evenly; 
@@ -58,7 +58,7 @@ nav button {
     top: -11px;
 }
 
-.inside-button svg {
+nav .inside-button svg {
     width: 20%;
 
 }
@@ -97,22 +97,48 @@ main img {
     font-weight: normal;
     text-align: right;
     /* margin-left: 10px; */
-    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
-fieldset input{
-   
+
+.create-account .inside-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.create-account .inside-button svg{
+    width: 8%;
+}
+
+.create-account .inside-button p{
+    color: white;
+}
+
 .fieldset-div {
 background-color: #ffffff;
 }
-.input-class{
-    /* text-align: left; */
+.center-form{
+    text-align: center;
+}
+
+.center-form a{
+    color: #0077c5;
+    text-decoration: none;
+}
+
+.special-div{
+    display: inline-block;
 }
 
 .input-class input {
     display: grid;
     align-items: center;
-    width: 100%;
+    width: 320px;
+    height: 34px;
+    text-align: center;
 }
 label p{
     text-align: left;
@@ -133,6 +159,17 @@ fieldset h2{
     line-height: 1.1;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.recaptcha{
+    background-color: #eceef1;
+    height: 70px;
+}
+.recaptcha p{
+    font-size: 12px;
+}
+.recaptcha a{
+    color: #0077c5;
+    text-decoration: none;
 }
 
 footer {
