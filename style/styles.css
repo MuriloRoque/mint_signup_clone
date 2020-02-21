@@ -133,14 +133,18 @@ background-color: #ffffff;
     display: inline-block;
 }
 
-.input-class input {
-    display: grid;
-    align-items: center;
-    width: 320px;
-    height: 34px;
-    text-align: center;
+.input-class {
+    text-align: left;
+    
 }
-label p{
+
+.input-class input {
+    width: 320px;
+    height: 34px; 
+}
+
+
+.class-label {
     text-align: left;
     font-weight: 400;
     color: #404040;
