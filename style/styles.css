@@ -1,8 +1,6 @@
 body {
     background-color: #eceef1;
     text-align: center;
-    
-    
 }
 nav {
     height: 60px;
@@ -42,10 +40,9 @@ main fieldset {
     width: 380px;
     padding: 30px;
     align-content: center;
-    position: relative;
-    left: 33%;
-    
-    
+    position: absolute;
+    left: 33.33%;
+    right: 33.33%;
 }
 .create-account{
     display: block;
@@ -65,8 +62,11 @@ main fieldset {
     width: 40%;
 }
 fieldset input{
-    width: 320px;
+    width: 350px;
     height: 34px;
+}
+.input-class{
+    text-align: left;
 }
 label p{
     text-align: left;
