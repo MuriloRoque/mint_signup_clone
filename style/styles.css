@@ -74,8 +74,10 @@ main img {
   
 }
 .create-account{
-    
+    margin: 0;
     padding-top: 10%;
+    position: relative;
+    top: -17px;
 }
 
 .create-account button {
@@ -131,6 +133,7 @@ fieldset{
 .special-div{
     margin: 10px auto;
     width: 100%;
+    background-color: yellow;
     
 }
 
@@ -149,6 +152,7 @@ fieldset{
     margin-top: 0;
     width: 100%;
     box-sizing: border-box;
+    
 }
 
 
@@ -217,4 +221,30 @@ footer a{
 
 .clickable:hover {
     text-decoration: underline;
+}
+.special-div img{
+   width: 11%;
+   position: relative;
+   top: -63px;
+   float: right;
+   right: 10px;
+   margin-bottom: 0px;
+
+}
+
+
+.fixed-button button {
+    position: fixed;
+    height: 43px;
+    bottom: 0px;
+    right: 5%; 
+    background-color: #818181;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 12px;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+
 }
