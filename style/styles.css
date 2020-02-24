@@ -67,11 +67,8 @@ main img {
 }
 
 
-.main-form {
-    
+.main-form {    
    display: grid;
-   
-  
 }
 .create-account{
     margin: 0;
@@ -79,18 +76,17 @@ main img {
     position: relative;
     top: -17px;
 }
-
 .create-account button {
     background-color: #0077c5;
     border: 1px solid #4c4c4c;
     border-radius: 4px;
+    box-sizing: border-box;
     color: white;
     cursor: pointer;
     display: inline-block;
     font-size: 1.125em;
     font-weight: normal;
     height: 50px;
-    box-sizing: border-box;
 }
 .create-account svg  {
     width: 7%;
@@ -118,6 +114,7 @@ fieldset{
     margin: 0 auto;
     padding: 0;
     width: 78%;
+    box-sizing: border-box;
 }
 .center-form{
     margin: 30px;
@@ -125,37 +122,32 @@ fieldset{
 
 }
 
+.toptitle{
+    font-size: 13px;
+}
 .center-form a{
     color: #0077c5;
     text-decoration: none;
 }
-
 .special-div{
     margin: 10px auto;
-    width: 100%;
-    background-color: yellow;
-    
+    width: 100%; 
 }
-
 .input-class {
     margin-bottom: 30px;
     text-align: left;
     width: 100%;
 
 }
-
 .input-class input {
     border: 1px solid #c1c5c8;
     border-radius: 3px; 
+    box-sizing: border-box;  
     height: 34px;  
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
-    box-sizing: border-box;
-    
 }
-
-
 label {
     color: #4c4c4c;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -223,28 +215,23 @@ footer a{
     text-decoration: underline;
 }
 .special-div img{
-   width: 11%;
+    float: right;
+    margin-bottom: 0;
    position: relative;
-   top: -63px;
-   float: right;
    right: 10px;
-   margin-bottom: 0px;
-
+   width: 11%;
+   top: -63px;
 }
-
-
 .fixed-button button {
-    position: fixed;
-    height: 43px;
-    bottom: 0px;
-    right: 5%; 
     background-color: #818181;
-    color: white;
     border-radius: 5px;
-    padding: 10px 12px;
-    vertical-align: middle;
-    cursor: pointer;
+    bottom: 0;
     box-sizing: border-box;
-    
-
+    color: white;
+    cursor: pointer;
+    height: 43px;
+    padding: 10px 12px;
+    position: fixed;
+    right: 5%; 
+    vertical-align: middle;
 }
