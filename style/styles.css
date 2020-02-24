@@ -1,24 +1,24 @@
 body {
     background-color: #eceef1;
-    text-align: center;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
 }
 nav {
     
-    display: flex;
     align-items: center;
+    display: flex;
+    height: 34px;
     justify-content: flex-end;
-    width: 100%;
     position: relative;
     right: 3%;
-    height: 34px;
+    width: 100%;
 }
 
 .forgot-pass{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
     color: #505050;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
+    font-weight: 400;
     position: relative;
     right: 1%;
     text-align: center;
@@ -26,25 +26,25 @@ nav {
 }
 
 .forgot-pass a {
-    position: relative;
-    top: -10px;
     color: #0077c5;
+    position: relative;
     text-decoration: none;
+    top: -10px;
 }
 
 
 nav button {
-    width: 102.54px;
-    height: 34px;
     background-color: #0077c5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
     color: white;
     cursor: pointer;
+    display: inline-block;
     font-size: 14px;
     font-weight: normal;
+    height: 34px;
     text-align: center;
-    display: inline-block;
+    width: 102.54px;
 
 
 }
@@ -56,15 +56,15 @@ nav span {
 
 
 svg {
-    width: 20%;
     fill: currentColor;
+    width: 20%;
 }
 
 
 main img {
-    width: 330px;
-    margin-top: 35px;
     margin-bottom: 20px;
+    margin-top: 35px;
+    width: 330px;
 }
 
 
@@ -80,16 +80,16 @@ main img {
 }
 
 .create-account button {
+    
     background-color: #0077c5;
     border-radius: 4px;
     border: 1px solid #4c4c4c;
     color: white;
     cursor: pointer;
+    display: inline-block;
     font-size: 1.125em;
     font-weight: normal;
    height: 50px;
-    
-    display: inline-block;
  
 
 }
@@ -108,21 +108,21 @@ main img {
     margin: 0 auto;
 }
 .standart-calls {
-    text-align: left;
     font-size: 11px;
     position: relative;
+    text-align: left;
     top: -3px;
 }
 fieldset{
     background-color: #ffffff;
     border: 1px solid #c7c7c7;
-    width: 78%;
     margin: 0 auto;
     padding: 0;
+    width: 78%;
 }
 .center-form{
-    text-align: center;
     margin: 30px;
+    text-align: center;
 
 }
 
@@ -132,70 +132,70 @@ fieldset{
 }
 
 .special-div{
-    width: 100%;
     margin: 10px auto;
+    width: 100%;
     
 }
 
 .input-class {
-    width: 100%;
-    text-align: left;
     margin-bottom: 30px;
+    text-align: left;
+    width: 100%;
 
 }
 
 .input-class input {
-    width: 100%;
-    height: 34px;  
     border-radius: 3px; 
     border: 1px solid #c1c5c8;
-    margin-top: 0;
+    height: 34px;  
     margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
 }
 
 
 label {
-    text-align: left;
-    font-weight: 300;
     color: #4c4c4c;
-    font-size: 14px;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-    line-height: 25px;
-    padding-bottom: 50px;
-    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 300;
     line-height: 1.2;
+    line-height: 25px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    text-align: left;
 
 
 }
 .statement-first {
-    padding-top: 25px;
+    color: #757575;
     font-size: 13px;
     font-style: italic;
-    color: #757575;
     font-weight: 400;
     line-height: 20px;
+    padding-top: 25px;
 }
 
 fieldset h2{
     color: #4c4c4c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
     font-weight: 400;
     line-height: 1.1;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .recaptcha{
     background-color: #eceef1;
     height: 50px;
-    width: 100%;
     margin: 0 auto;
     text-align: center;
+    width: 100%;
     
 }
 .recaptcha p{
 
-    padding: 15px;
-    font-size: 10px;
     color: #8d9096;
+    font-size: 10px;
+    padding: 15px;
 }
 .recaptcha a{
     color: #0077c5;
@@ -203,18 +203,18 @@ fieldset h2{
 }
 
 footer {
-    padding-top: 22px;
-    display: block;
-    font-size: 12px;
-    width: 60%;
-    margin: 0 auto;
     color: #4c4c4c;
+    display: block;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+    padding-top: 22px;
+    width: 60%;
 }
 footer a{
-    text-decoration: none;
     color: #4c4c4c;
     padding: 0 6px 0 6px;
+    text-decoration: none;
 }
 
 .clickable:hover {
