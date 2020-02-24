@@ -71,7 +71,7 @@ nav .inside-button svg {
 
 
 main img {
-    width: 28%;
+    width: 250px;
 }
 
 
@@ -117,11 +117,18 @@ main img {
 }
 
 .fieldset-div {
-    background-color: #ffffff;
+
     margin: 0 auto;
+
+}
+fieldset{
+    background-color: #ffffff;
+    border: 1px solid #c7c7c7;
 }
 .center-form{
     text-align: center;
+    margin: 12px;
+
 }
 
 .center-form a{
@@ -136,21 +143,23 @@ main img {
 
 .input-class {
     width: 100%;
-    
+
 }
 
 .input-class input {
     width: 100%;
-    height: 34px;   
+    height: 34px;  
+    border-radius: 3px; 
+    border: 1px solid #c1c5c8;
 }
 
 
-.class-label {
+label {
     text-align: left;
     font-weight: 400;
     color: #404040;
     font-size: 14px;
-    /* line-height: 25px; */
+
 }
 fieldset p{
     color: #4c4c4c;
