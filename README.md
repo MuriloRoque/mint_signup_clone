@@ -13,6 +13,18 @@ HTML and CSS
 ## Getting Started
 You will be redirected to a copy of the Mint SignUp Page. You can fill in the form and send your infos.
 
+## Authors
+Kubilay Caglayan
+
+Github: @kblycaglayan
+Linkedin: https://www.linkedin.com/in/kubilaycaglayan/
+
+Murilo Roque Paiva da Silva
+
+Github: @MuriloRoque
+Twitter: @MuriloRoquePai1
+Linkedin: https://www.linkedin.com/in/murilo-roque-b1268741/
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome! Start by:
