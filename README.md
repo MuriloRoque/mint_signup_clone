@@ -8,7 +8,7 @@ This page shows a copy of the SignUp form for the Mint Website.
 HTML and CSS
 
 ## Live Demo
-[Click for the Form clone](https://raw.githack.com/MuriloRoque/signup-form/feature-branch/index.html)
+[Click for the Form clone](https://rawcdn.githack.com/MuriloRoque/signup-form/3598a9dfce2d2af0f28fe848e748ff37f427efc9/index.html)
 
 ## Getting Started
 You will be redirected to a copy of the Mint SignUp Page. You can fill in the form and send your infos.
