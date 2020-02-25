@@ -1,0 +1,269 @@
+body {
+  background-color: #eceef1;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  position: relative;
+  right: 3%;
+  width: 100%;
+}
+
+.forgot-pass {
+  color: #505050;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  right: 1%;
+  text-align: center;
+  width: 180px;
+}
+
+footer a {
+  color: #4c4c4c;
+  padding: 0 6px 0 6px;
+  text-decoration: none;
+}
+
+.forgot-pass a {
+  color: #0077c5;
+  position: relative;
+  text-decoration: none;
+  top: -10px;
+}
+
+nav button {
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  height: 34px;
+  text-align: center;
+  width: 102.54px;
+}
+
+nav span {
+  position: relative;
+  top: -4px;
+}
+
+svg {
+  fill: currentColor;
+  width: 20%;
+}
+
+.top-logo {
+  margin-top: 30px;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.quick {
+  width: 120px;
+}
+
+.intuit {
+  box-sizing: border-box;
+  margin-bottom: 5px;
+  padding-right: 8px;
+  width: 130px;
+}
+
+.bottom {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.mint {
+  width: 75px;
+}
+
+.main-form {
+  display: grid;
+}
+
+.create-account {
+  margin: 0;
+  padding-top: 10%;
+  position: relative;
+  top: -17px;
+}
+
+.create-account button {
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125em;
+  font-weight: normal;
+  height: 50px;
+}
+
+.create-account svg {
+  width: 7%;
+}
+
+.create-account span {
+  position: relative;
+  top: -4px;
+}
+
+.fieldset-div {
+  margin: 0 auto;
+}
+
+.standart-calls {
+  font-size: 11px;
+  position: relative;
+  text-align: left;
+  top: -3px;
+}
+
+fieldset {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  width: 78%;
+}
+
+.center-form {
+  margin: 30px;
+  text-align: center;
+}
+
+.toptitle {
+  font-size: 13px;
+}
+
+.center-form a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+.special-div {
+  margin: 10px auto;
+  width: 100%;
+}
+
+.input-class {
+  margin-bottom: 30px;
+  text-align: left;
+  width: 100%;
+}
+
+.input-class input {
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 34px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 7px;
+  width: 100%;
+}
+
+label {
+  color: #4c4c4c;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  line-height: 25px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+.statement-first {
+  color: #757575;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 25px;
+}
+
+.titling {
+  color: #4c4c4c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.recaptcha {
+  background-color: #eceef1;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.recaptcha p {
+  color: #8d9096;
+  font-size: 10px;
+  padding: 15px;
+}
+
+.recaptcha a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+footer {
+  color: #4c4c4c;
+  display: block;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin: 0 auto;
+  padding-top: 22px;
+  width: 60%;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.special-div img {
+  float: right;
+  margin-bottom: 0;
+  position: relative;
+  right: 10px;
+  top: -30px;
+  width: 11%;
+}
+
+.fixed-button button {
+  background-color: #818181;
+  border-radius: 5px;
+  bottom: 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  height: 43px;
+  padding: 10px 12px;
+  position: fixed;
+  right: 5%;
+  vertical-align: middle;
+}
