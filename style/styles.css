@@ -26,6 +26,12 @@ nav {
   width: 180px;
 }
 
+footer a {
+  color: #4c4c4c;
+  padding: 0 6px 0 6px;
+  text-decoration: none;
+}
+
 .forgot-pass a {
   color: #0077c5;
   position: relative;
@@ -233,12 +239,6 @@ footer {
   margin: 0 auto;
   padding-top: 22px;
   width: 60%;
-}
-
-footer a {
-  color: #4c4c4c;
-  padding: 0 6px 0 6px;
-  text-decoration: none;
 }
 
 .clickable:hover {
