@@ -44,6 +44,7 @@ nav button {
     font-size: 14px;
     font-weight: normal;
     height: 34px;
+    outline: none;
     text-align: center;
     width: 102.54px;
 }
@@ -69,14 +70,19 @@ svg {
 .quick{
     width: 120px;
 }
+.intuit{
+   margin-bottom: 5px;
+    padding-right: 8px;
+    width: 130px;
+}
 .bottom{
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-bottom: 10px;
 }
 .mint{
-    width: 85px;
+    width: 75px;
 }
 
 .main-form {    
@@ -99,6 +105,7 @@ svg {
     font-size: 1.125em;
     font-weight: normal;
     height: 50px;
+    outline: none;
 }
 .create-account svg  {
     width: 7%;
@@ -106,7 +113,7 @@ svg {
 
 .create-account span {
     position: relative;
-    top: -6px;
+    top: -4px;
 }
 
 
@@ -159,6 +166,8 @@ fieldset{
     margin-bottom: 0;
     margin-top: 0;
     width: 100%;
+    outline: none;
+    padding-left: 7px;
 }
 label {
     color: #4c4c4c;
@@ -170,8 +179,6 @@ label {
     margin-bottom: 0;
     padding-bottom: 50px;
     text-align: left;
-
-
 }
 .statement-first {
     color: #757575;
@@ -242,6 +249,7 @@ footer a{
     color: white;
     cursor: pointer;
     height: 43px;
+    outline: none;
     padding: 10px 12px;
     position: fixed;
     right: 5%; 
