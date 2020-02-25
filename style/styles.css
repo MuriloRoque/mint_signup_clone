@@ -44,7 +44,6 @@ nav button {
     font-size: 14px;
     font-weight: normal;
     height: 34px;
-    outline: none;
     text-align: center;
     width: 102.54px;
 }
@@ -71,7 +70,8 @@ svg {
     width: 120px;
 }
 .intuit{
-   margin-bottom: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
     padding-right: 8px;
     width: 130px;
 }
@@ -105,8 +105,12 @@ svg {
     font-size: 1.125em;
     font-weight: normal;
     height: 50px;
+}
+
+button:focus {
     outline: none;
 }
+
 .create-account svg  {
     width: 7%;
 }
@@ -156,7 +160,6 @@ fieldset{
     margin-bottom: 30px;
     text-align: left;
     width: 100%;
-
 }
 .input-class input {
     border: 1px solid #c1c5c8;
@@ -165,10 +168,14 @@ fieldset{
     height: 34px;  
     margin-bottom: 0;
     margin-top: 0;
-    width: 100%;
-    outline: none;
     padding-left: 7px;
+    width: 100%;
 }
+
+input:focus {
+    outline: none;
+}
+
 label {
     color: #4c4c4c;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -249,7 +256,6 @@ footer a{
     color: white;
     cursor: pointer;
     height: 43px;
-    outline: none;
     padding: 10px 12px;
     position: fixed;
     right: 5%; 
