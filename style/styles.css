@@ -59,13 +59,25 @@ svg {
     width: 20%;
 }
 
-
-main img {
-    margin-bottom: 20px;
-    margin-top: 35px;
-    width: 330px;
+.top-logo{
+    margin-top: 30px;
 }
 
+.logo {
+    margin: 0 auto;
+}
+.quick{
+    width: 120px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mint{
+    width: 85px;
+}
 
 .main-form {    
    display: grid;
@@ -219,7 +231,7 @@ footer a{
     margin-bottom: 0;
     position: relative;
     right: 10px;
-    top: -63px;
+    top: -30px;
     width: 11%;
 }
 .fixed-button button {
