@@ -2,6 +2,7 @@ body {
     background-color: #eceef1;
     font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
     text-align: center;
+    box-sizing: border-box;
 }
 
 nav {
@@ -132,7 +133,7 @@ svg {
 }
 
 fieldset {
-    background-color: #ffffff;
+    background-color: #fff;
     border: 1px solid #c7c7c7;
     box-sizing: border-box;
     margin: 0 auto;
