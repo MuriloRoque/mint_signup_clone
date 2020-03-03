@@ -1,6 +1,9 @@
 # Mint SignUp Page
 This is a clone of the Mint SignUp Page page.
 
+![Screenshot_2020-03-03 Intuit Accounts - Sign Up](https://user-images.githubusercontent.com/60448833/75763942-29e61c00-5d4e-11ea-8631-8f259c42ea61.png)
+
+
 # What it does
 This page shows a copy of the SignUp form for the Mint Website.
 
