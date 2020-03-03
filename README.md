@@ -19,6 +19,7 @@ You will be redirected to a copy of the Mint SignUp Page. You can fill in the fo
 ## Authors
 Kubilay Caglayan
 
+kblycaglayan@gmail.com
 Github: @kblycaglayan
 Linkedin: https://www.linkedin.com/in/kubilaycaglayan/
 
