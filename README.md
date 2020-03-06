@@ -19,15 +19,16 @@ You will be redirected to a copy of the Mint SignUp Page. You can fill in the fo
 ## Authors
 Kubilay Caglayan
 
-kblycaglayan@gmail.com
-Github: @kblycaglayan
+kblycaglayan@gmail.com <br>
+Github: @kblycaglayan <br>
 Linkedin: https://www.linkedin.com/in/kubilaycaglayan/
 
 Murilo Roque Paiva da Silva
 
-Github: @MuriloRoque
-Twitter: @MuriloRoquePai1
-Linkedin: https://www.linkedin.com/in/murilo-roque-b1268741/
+Github: @MuriloRoque <br>
+Twitter: @MuriloRoquePai1 <br>
+Linkedin: https://www.linkedin.com/in/murilo-roque-b1268741/ <br>
+Avaiable for hire: YES
 
 ## 🤝 Contributing
 
